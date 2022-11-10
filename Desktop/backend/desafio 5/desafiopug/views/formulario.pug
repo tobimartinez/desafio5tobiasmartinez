@@ -1,0 +1,24 @@
+
+html
+    body 
+    a(
+        href="/productos"
+    )='Ir a Lista'
+    h1='Ingrese Producto:'
+    form(
+        action="/productos"
+        method="post"
+    )
+        label(for="title")='Titulo:'
+        input(type="text" id="title" name="title")
+        br
+        br
+        label(for="price")='Precio:'
+        input(type="text" id="price" name="price")
+        br
+        br
+        label(for="thumbnail")='Foto URL:'
+        input(type="text" id="thumbnail" name="thumbnail")
+        br
+        br
+        input(type="submit" value="Enviar")

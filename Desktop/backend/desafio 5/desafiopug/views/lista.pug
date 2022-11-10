@@ -1,0 +1,24 @@
+
+html
+    body
+        a(
+            href="/"
+        )="<-Ir a Formulario"
+        h2='Vista de Productos'
+        if productos.length == 0
+            h3='No hay datos'
+        else
+            table
+                tr
+                    th="Titulo"
+                    th="precio"
+                    th="Producto"
+                each producto in productos
+                    tr
+                        td=producto.title
+                        td=producto.price 
+                        td
+                            img(
+                                src=producto.thumbnail
+                            )
+                    
