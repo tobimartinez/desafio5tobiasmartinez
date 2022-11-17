@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Gaseosa",
+        "price": 400,
+        "img":".",
+        "id": 1
+    },
+    {
+        "title": "papas fritas",
+        "price": 500,
+        "img":".",
+        "id": 2
+    },
+    {
+        "title": "Hamburguesa",
+        "price": 400,
+        "img":".",
+        "id": 3
+    }
+]
