@@ -1,20 +1,32 @@
 [
     {
-        "title": "Gaseosa",
-        "price": 400,
-        "img":".",
+        "nombre": "Gaseosa",
+        "descripcion": "Gaseosa",
+        "timestamp": ,
+        "codigo": "32567123141",
+        "precio": 400,
+        "stock":10,
+        "foto":".",
         "id": 1
     },
     {
-        "title": "papas fritas",
-        "price": 500,
-        "img":".",
+        "nombre": "Papas fritas",
+        "descripcion": "Papas fritas",
+        "timestamp": ,
+        "codigo": "2131231252",
+        "precio": 700,
+        "stock":10,
+        "foto":".",
         "id": 2
     },
     {
-        "title": "Hamburguesa",
-        "price": 400,
-        "img":".",
+        "nombre": "Hamburguesa",
+        "descripcion": "Hamburguesa",
+        "timestamp": ,
+        "codigo": "890349211",
+        "precio": 500,
+        "stock":10,
+        "foto":".",
         "id": 3
     }
 ]
